@@ -1,0 +1,89 @@
+HTML CSSResult Skip Results Iframe * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    height: 100%;
+}
+
+.image-one,
+.image-two,
+.image-three {
+    position: relative;
+    opacity: 0.7;
+    background-image: linear-gradient(rgb(12, 98, 31), rgb(0, 0, 0));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-one {
+    background-image: url(./Images/pic1.jfif);
+    min-height: 800px;
+}
+
+.image-two {
+    background-image: url(./Images/parallex.png);
+    min-height: 800px;
+}
+
+.image-three {
+    background-image: url(./Images/pic2.jpg);
+    min-height: 800px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span {
+    padding: 10px 30px;
+    background: black;
+    color: lavenderblush;
+    font-size: 2rem;
+}
+
+.between {
+    text-align: center;
+    padding: 3.5rem;
+    width: 93%;
+    line-height: 1.8;
+    background-image: linear-gradient(rgb(12, 98, 31), rgb(0, 0, 0));
+    background-size: cover;
+    font-style: italic;
+    color: aquamarine;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.between h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.between span {
+    color: hsla(15, 80%, 60%, 1);
+}
+
+.sub-image-heading {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-image-heading h2 {
+    padding: 10px 30px;
+    color: dark;
+    font-size: 2rem;
+}
